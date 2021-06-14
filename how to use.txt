@@ -1,0 +1,13 @@
+DO SET type value_FOR variable;
+DO ADD type value_FOR variable;
+
+built in variables:
+OUTPUT <- this variable will be printed after being set and then it will become empty again
+INPUT    <- you can get input as a string like this: DO SET STR INPUT_FOR X; and an integer like this: DO SET INT INPUT_FOR X;
+
+types:
+STR    string	example: DO SET STR hello world_FOR OUTPUT;
+INT     integer         example: DO SET INT 3_FOR X;
+VAR    variable        example: DO SET VAR INPUT_FOR OUTPUT;
+CON   condition      examples: DO SET CON X<A_FOR B; and DO SET CON X=A_FOR B;
+
